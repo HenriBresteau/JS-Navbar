@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   font-family: 'Montserrat Alternates', sans-serif;
@@ -14,6 +15,7 @@ nav {
   background: #34BDFF;
   box-shadow: 0 0 3px #333;
   position: fixed;
+  transition: all 0.5s ease-in-out;
 }
 .nav-elements {
   display: flex;
@@ -21,7 +23,8 @@ nav {
   align-items: center;
   width: 90%;
   margin: auto;
-  height: 10vh;
+  /* height: 10vh; */
+  transition: all 0.5s ease-in-out;
 }
 .nav-elements a {
   color: #333;
